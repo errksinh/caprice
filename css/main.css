@@ -1,6 +1,7 @@
-body {
+ body {
       font-family: 'Segoe UI', sans-serif;
       scroll-behavior: smooth;
+      padding-top: 80px;
     }
 
   .hero {
@@ -127,12 +128,12 @@ body {
 
         footer {
       background-color: #343a40;
-      color: white;
+      
       padding: 20px 0;
     }
 
     .footer a {
-  color: #444;
+  
   text-decoration: none;
 }
 
@@ -141,7 +142,7 @@ body {
 }
 
 .footer h6 {
-  color: #333;
+  
   margin-bottom: 1rem;
 }
 
@@ -155,3 +156,66 @@ body {
 .text-justify {
   text-align: justify;
 }
+.wordart-text {
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(45deg, #f72585, #7209b7, #3a0ca3, #4361ee, #4cc9f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  animation: rainbow 5s linear infinite;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.cmyk-icon {
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, 
+    cyan 0%, cyan 25%, 
+    magenta 25%, magenta 50%, 
+    yellow 50%, yellow 75%, 
+    black 75%, black 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+  
+.icon-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 15px auto;
+      font-size: 24px;
+      color: white;
+    }
+
+    .icon-bg-blue { background-color: #0d6efd; }
+    .icon-bg-green { background-color: #198754; }
+    .icon-bg-red { background-color: #dc3545; }
+    .icon-bg-yellow { background-color: #ffc107;}
+     .engraving-bg { background-color: #6c757d; }     /* Gray */
+  .graphics-bg { background-color: #0d6efd; }      /* Bootstrap Primary */
+  .signage-bg  { background-color: #20c997; }      /* Teal */
+  .product-bg  { background-color: #fd7e14; }      /* Orange */
+  .modeling-bg { background-color: #6610f2; }      /* Indigo */
+  .plan-bg     { background-color: #198754; }      /* Green */
+
+  .circle-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
